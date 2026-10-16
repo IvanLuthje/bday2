@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 // ─── Constantes ───────────────────────────────────────────────────────────────
-const API_URL = "http://192.168.1.82:3001/api/cumpleanos";
+const API_URL = "http://localhost:3001/api/cumpleanos";
 
 const DIAS_ES = ["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
 const MESES_ES = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];

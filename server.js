@@ -39,5 +39,5 @@ app.get("/api/health", (_, res) => res.json({ ok: true }));
 
 const PORT = process.env.PORT;
 app.listen(PORT, () =>
-  console.log(`✅ Backend corriendo en http://localhost:${PORT}`)
+  console.log(`✅ Backend corriendo en http://localhost:3001`)
 );
